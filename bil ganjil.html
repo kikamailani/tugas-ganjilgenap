@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Mencetak angka ganjil dengan for 
+        document.write("<strong>For Loop Ganjil</strong><br>");
+        for (let i = 0; i <=10; i++) {
+            if (i%2 !== 0){
+            document.write (i + "bilangan ganjil")
+ }else {
+    console.log (`${i} bilangan genap`)
+ }
+}
+         //Mencetak angka ganjil dengan while 
+         //document.write("<strong>While Loop Ganjil</strong><br>");
+         //let i=0;
+         //while (i <=10){
+            //if ( i % 2 !== 0){
+                //console.log (i + "bilangan ganjil");
+            //}else {
+                //console.log (`${i} bilangan genap`)
+            //}
+            //i++;
+         //}
+
+         //Mencetak bilangan ganjil dengan dowhile 
+         //let i=0
+         //do {
+            //if (i % 2 !== 0){
+               //document.write (i)}
+            //i++;
+        //}else {
+            //console.log (`${i} bilangan genap`)
+        //}
+        //while (i <=30); 
+
+         // faltorial while 
+         const n=5;
+        let i= 1
+        faktorial = 1;
+        while( i <=n) {
+            faktorial *=i;
+            console.log (faktorial)
+            i++
+        }
+
+        // faktorial dowhile 
+        const n =5;
+        let i=1;
+        let faktorial =i;
+
+        do{
+            faktorial *=i
+            console.log (faktorial)
+            i++
+        }
+        while(
+            i <= n
+        )
+        
+        //faktorial for
+        constn =5;
+         let faktorial i;
+         for (let i=1; i<=n; i++){
+            faktorial *=i;
+            console.log(faktorial)
+         }
+
+    </script>
+</body>
+</html>
